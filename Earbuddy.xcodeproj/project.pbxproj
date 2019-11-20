@@ -7,22 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ABC6FB10237FCDFD00F4D8F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC6FB0F237FCDFD00F4D8F1 /* AppDelegate.swift */; };
-		ABC6FB12237FCDFD00F4D8F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC6FB11237FCDFD00F4D8F1 /* ContentView.swift */; };
-		ABC6FB14237FCE0000F4D8F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABC6FB13237FCE0000F4D8F1 /* Assets.xcassets */; };
-		ABC6FB17237FCE0000F4D8F1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABC6FB16237FCE0000F4D8F1 /* Preview Assets.xcassets */; };
-		ABC6FB1A237FCE0000F4D8F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABC6FB18237FCE0000F4D8F1 /* Main.storyboard */; };
+		AB18D2BD2385BED500DC53EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB18D2AC2385BED500DC53EB /* Assets.xcassets */; };
+		AB18D2BE2385BED500DC53EB /* BLEController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB18D2AD2385BED500DC53EB /* BLEController.swift */; };
+		AB18D2BF2385BED500DC53EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB18D2AF2385BED500DC53EB /* Preview Assets.xcassets */; };
+		AB18D2C02385BED500DC53EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB18D2B02385BED500DC53EB /* Main.storyboard */; };
+		AB18D2C12385BED500DC53EB /* BluetoothController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB18D2B22385BED500DC53EB /* BluetoothController.swift */; };
+		AB18D2C22385BED500DC53EB /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB18D2B32385BED500DC53EB /* Util.swift */; };
+		AB18D2C42385BED500DC53EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB18D2B72385BED500DC53EB /* AppDelegate.swift */; };
+		AB18D2C52385BED500DC53EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB18D2B82385BED500DC53EB /* ContentView.swift */; };
+		AB18D2C62385BED500DC53EB /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AB18D2B92385BED500DC53EB /* Info.plist */; };
+		AB18D2C72385BED500DC53EB /* DeviceRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB18D2BA2385BED500DC53EB /* DeviceRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		ABC6FB0C237FCDFD00F4D8F1 /* Pamu Controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pamu Controller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		ABC6FB0F237FCDFD00F4D8F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ABC6FB11237FCDFD00F4D8F1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		ABC6FB13237FCE0000F4D8F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		ABC6FB16237FCE0000F4D8F1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		ABC6FB19237FCE0000F4D8F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		ABC6FB1B237FCE0000F4D8F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ABC6FB1C237FCE0000F4D8F1 /* Pamu_Controller.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Pamu_Controller.entitlements; sourceTree = "<group>"; };
+		AB18D2AC2385BED500DC53EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB18D2AD2385BED500DC53EB /* BLEController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEController.swift; sourceTree = "<group>"; };
+		AB18D2AF2385BED500DC53EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AB18D2B12385BED500DC53EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB18D2B22385BED500DC53EB /* BluetoothController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothController.swift; sourceTree = "<group>"; };
+		AB18D2B32385BED500DC53EB /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		AB18D2B62385BED500DC53EB /* Pamu_Controller.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = Pamu_Controller.entitlements; sourceTree = "<group>"; };
+		AB18D2B72385BED500DC53EB /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB18D2B82385BED500DC53EB /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AB18D2B92385BED500DC53EB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB18D2BA2385BED500DC53EB /* DeviceRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceRow.swift; sourceTree = "<group>"; };
+		ABC6FB0C237FCDFD00F4D8F1 /* Earbuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Earbuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,10 +45,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB18D2A82385BED500DC53EB /* Earbuddy */ = {
+			isa = PBXGroup;
+			children = (
+				AB18D2C82385BF3400DC53EB /* Bluetooth */,
+				AB18D2CA2385BF8D00DC53EB /* Resources */,
+				AB18D2C92385BF6900DC53EB /* UI */,
+				AB18D2CB2385BFC700DC53EB /* Util */,
+				AB18D2B72385BED500DC53EB /* AppDelegate.swift */,
+			);
+			path = Earbuddy;
+			sourceTree = "<group>";
+		};
+		AB18D2AE2385BED500DC53EB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AB18D2AF2385BED500DC53EB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AB18D2C82385BF3400DC53EB /* Bluetooth */ = {
+			isa = PBXGroup;
+			children = (
+				AB18D2B22385BED500DC53EB /* BluetoothController.swift */,
+				AB18D2AD2385BED500DC53EB /* BLEController.swift */,
+			);
+			path = Bluetooth;
+			sourceTree = "<group>";
+		};
+		AB18D2C92385BF6900DC53EB /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				AB18D2BA2385BED500DC53EB /* DeviceRow.swift */,
+				AB18D2B82385BED500DC53EB /* ContentView.swift */,
+				AB18D2B02385BED500DC53EB /* Main.storyboard */,
+				AB18D2AE2385BED500DC53EB /* Preview Content */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		AB18D2CA2385BF8D00DC53EB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AB18D2AC2385BED500DC53EB /* Assets.xcassets */,
+				AB18D2B62385BED500DC53EB /* Pamu_Controller.entitlements */,
+				AB18D2B92385BED500DC53EB /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AB18D2CB2385BFC700DC53EB /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				AB18D2B32385BED500DC53EB /* Util.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 		ABC6FB03237FCDFD00F4D8F1 = {
 			isa = PBXGroup;
 			children = (
-				ABC6FB0E237FCDFD00F4D8F1 /* Pamu Controller */,
+				AB18D2A82385BED500DC53EB /* Earbuddy */,
 				ABC6FB0D237FCDFD00F4D8F1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,39 +114,17 @@
 		ABC6FB0D237FCDFD00F4D8F1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ABC6FB0C237FCDFD00F4D8F1 /* Pamu Controller.app */,
+				ABC6FB0C237FCDFD00F4D8F1 /* Earbuddy.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		ABC6FB0E237FCDFD00F4D8F1 /* Pamu Controller */ = {
-			isa = PBXGroup;
-			children = (
-				ABC6FB0F237FCDFD00F4D8F1 /* AppDelegate.swift */,
-				ABC6FB11237FCDFD00F4D8F1 /* ContentView.swift */,
-				ABC6FB13237FCE0000F4D8F1 /* Assets.xcassets */,
-				ABC6FB18237FCE0000F4D8F1 /* Main.storyboard */,
-				ABC6FB1B237FCE0000F4D8F1 /* Info.plist */,
-				ABC6FB1C237FCE0000F4D8F1 /* Pamu_Controller.entitlements */,
-				ABC6FB15237FCE0000F4D8F1 /* Preview Content */,
-			);
-			path = "Pamu Controller";
-			sourceTree = "<group>";
-		};
-		ABC6FB15237FCE0000F4D8F1 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				ABC6FB16237FCE0000F4D8F1 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ABC6FB0B237FCDFD00F4D8F1 /* Pamu Controller */ = {
+		ABC6FB0B237FCDFD00F4D8F1 /* Earbuddy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ABC6FB1F237FCE0000F4D8F1 /* Build configuration list for PBXNativeTarget "Pamu Controller" */;
+			buildConfigurationList = ABC6FB1F237FCE0000F4D8F1 /* Build configuration list for PBXNativeTarget "Earbuddy" */;
 			buildPhases = (
 				ABC6FB08237FCDFD00F4D8F1 /* Sources */,
 				ABC6FB09237FCDFD00F4D8F1 /* Frameworks */,
@@ -89,9 +134,9 @@
 			);
 			dependencies = (
 			);
-			name = "Pamu Controller";
+			name = Earbuddy;
 			productName = "Pamu Controller";
-			productReference = ABC6FB0C237FCDFD00F4D8F1 /* Pamu Controller.app */;
+			productReference = ABC6FB0C237FCDFD00F4D8F1 /* Earbuddy.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -109,7 +154,7 @@
 					};
 				};
 			};
-			buildConfigurationList = ABC6FB07237FCDFD00F4D8F1 /* Build configuration list for PBXProject "Pamu Controller" */;
+			buildConfigurationList = ABC6FB07237FCDFD00F4D8F1 /* Build configuration list for PBXProject "Earbuddy" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -122,7 +167,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ABC6FB0B237FCDFD00F4D8F1 /* Pamu Controller */,
+				ABC6FB0B237FCDFD00F4D8F1 /* Earbuddy */,
 			);
 		};
 /* End PBXProject section */
@@ -132,9 +177,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABC6FB1A237FCE0000F4D8F1 /* Main.storyboard in Resources */,
-				ABC6FB17237FCE0000F4D8F1 /* Preview Assets.xcassets in Resources */,
-				ABC6FB14237FCE0000F4D8F1 /* Assets.xcassets in Resources */,
+				AB18D2BD2385BED500DC53EB /* Assets.xcassets in Resources */,
+				AB18D2BF2385BED500DC53EB /* Preview Assets.xcassets in Resources */,
+				AB18D2C62385BED500DC53EB /* Info.plist in Resources */,
+				AB18D2C02385BED500DC53EB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,18 +191,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABC6FB12237FCDFD00F4D8F1 /* ContentView.swift in Sources */,
-				ABC6FB10237FCDFD00F4D8F1 /* AppDelegate.swift in Sources */,
+				AB18D2C12385BED500DC53EB /* BluetoothController.swift in Sources */,
+				AB18D2C52385BED500DC53EB /* ContentView.swift in Sources */,
+				AB18D2BE2385BED500DC53EB /* BLEController.swift in Sources */,
+				AB18D2C42385BED500DC53EB /* AppDelegate.swift in Sources */,
+				AB18D2C22385BED500DC53EB /* Util.swift in Sources */,
+				AB18D2C72385BED500DC53EB /* DeviceRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		ABC6FB18237FCE0000F4D8F1 /* Main.storyboard */ = {
+		AB18D2B02385BED500DC53EB /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				ABC6FB19237FCE0000F4D8F1 /* Base */,
+				AB18D2B12385BED500DC53EB /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -281,20 +331,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Pamu Controller/Pamu_Controller.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"Pamu Controller/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Earbuddy/UI/Preview Content\"";
 				DEVELOPMENT_TEAM = 94LUT6L3Q4;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Pamu Controller/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Earbuddy/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = "cancit.Pamu-Controller";
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = cancit.earbuddy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -304,20 +356,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Pamu Controller/Pamu_Controller.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"Pamu Controller/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Earbuddy/UI/Preview Content\"";
 				DEVELOPMENT_TEAM = 94LUT6L3Q4;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Pamu Controller/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Earbuddy/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = "cancit.Pamu-Controller";
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = cancit.earbuddy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -326,7 +380,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ABC6FB07237FCDFD00F4D8F1 /* Build configuration list for PBXProject "Pamu Controller" */ = {
+		ABC6FB07237FCDFD00F4D8F1 /* Build configuration list for PBXProject "Earbuddy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ABC6FB1D237FCE0000F4D8F1 /* Debug */,
@@ -335,7 +389,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ABC6FB1F237FCE0000F4D8F1 /* Build configuration list for PBXNativeTarget "Pamu Controller" */ = {
+		ABC6FB1F237FCE0000F4D8F1 /* Build configuration list for PBXNativeTarget "Earbuddy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ABC6FB20237FCE0000F4D8F1 /* Debug */,

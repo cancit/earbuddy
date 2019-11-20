@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Pamu Controller.xcodeproj">
+      location = "self:/Users/cancitoglu/cancit/Pamu Controller/Earbuddy.xcodeproj">
    </FileRef>
 </Workspace>
