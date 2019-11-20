@@ -26,24 +26,24 @@ struct ContentView: View {
             }) {
                 Text("OK")
             }
-            Button(action: {
-                BluetoothController.shared.readData()
-            }) {
-                Text("Read Data")
-            }
-            Button(action: { BluetoothController.shared.disconnect()
-            }) {
-                Text("Disconnect")
-            }
-            Button(action: { BluetoothController.shared.reconnect()
-            }) {
-                Text("Reconnect")
-            }
-            Button(action: {
-                BLEController.shared.readData()
-            }) {
-                Text("Read BLE Data")
-            }
+//            Button(action: {
+//                BluetoothController.shared.readData()
+//            }) {
+//                Text("Read Data")
+//            }
+//            Button(action: { BluetoothController.shared.disconnect()
+//            }) {
+//                Text("Disconnect")
+//            }
+//            Button(action: { BluetoothController.shared.reconnect()
+//            }) {
+//                Text("Reconnect")
+//            }
+//            Button(action: {
+//                BLEController.shared.readData()
+//            }) {
+//                Text("Read BLE Data")
+//            }
 
         }
 
