@@ -260,6 +260,7 @@ func addListenerBlock( listenerBlock: AudioObjectPropertyListenerBlock, onAudioO
               if(outputName != BluetoothController.shared.bluetoothDevice?.name){
                 print("connection lost!")
                 if(UserDefaults().bool(forKey: AppDelegate.FORCE_OUTPUT_KEY)){
+                    mute()
                     BluetoothController.shared.fixSourceDisableBug()
                 }
             }
